@@ -3,7 +3,7 @@ package com.questions.onetoten;
 import java.util.HashSet;
 import java.util.Set;
 
-class Program {
+class BstProgramProgram {
     public static void main(String args[]){
         int array[] =  {3,5,-4,8,11,1,-1,6};
         int targetSum = 10;
