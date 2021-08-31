@@ -3,9 +3,9 @@ package com.dfs;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DepthFirstSearch {
+public class  Program {
     public static void main(String args[]){
-        DepthFirstSearch.Node graph = new DepthFirstSearch.Node("A");
+        Program.Node graph = new Program.Node("A");
         graph.addChild("B").addChild("C").addChild("D");
         graph.children.get(0).addChild("E").addChild("F");
         graph.children.get(2).addChild("G").addChild("H");
